@@ -18,6 +18,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import MgMMain from "./components/DesingsContainer/MgMEcommerce/main.js";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,7 +43,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/web-designs" element={<DesignsContainer />} />
-          <Route path="/mgm-ecommerce" element={<Resume />} />
+          <Route path="/mgm-ecommerce" element={<MgMMain />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
