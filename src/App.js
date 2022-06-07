@@ -19,6 +19,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MgMMain from "./components/DesingsContainer/MgMEcommerce/main.js";
+import ProductsDisplay from "./components/DesingsContainer/MgMEcommerce/ProductDisplay";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -44,6 +45,10 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/web-designs" element={<DesignsContainer />} />
           <Route path="/mgm-ecommerce" element={<MgMMain />} />
+          <Route
+            path="/mgm-ecommerce/product/:id"
+            element={<ProductsDisplay></ProductsDisplay>}
+          />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

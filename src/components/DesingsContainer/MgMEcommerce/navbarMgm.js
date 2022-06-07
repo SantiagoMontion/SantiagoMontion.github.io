@@ -61,10 +61,10 @@ function NavbarMgm() {
                     <h5>Mousepads</h5>
                   </NavDropdown.ItemText>
 
-                  <NavDropdown.Item href="/mgm-ecommerce/japanese">
+                  <NavDropdown.Item href="/mgm-ecommerce/mousepads/japanese">
                     Japanese
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/mgm-ecommerce/minimalist">
+                  <NavDropdown.Item href="/mgm-ecommerce/mousepads/minimalist">
                     Minimalist
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
@@ -73,10 +73,10 @@ function NavbarMgm() {
                     <h5>Games</h5>
                   </NavDropdown.ItemText>
 
-                  <NavDropdown.Item href="/mgm-ecommerce/japanese">
+                  <NavDropdown.Item href="/mgm-ecommerce/games/action">
                     Action
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/mgm-ecommerce/minimalist">
+                  <NavDropdown.Item href="/mgm-ecommerce/games/adventure">
                     Adventure
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -111,7 +111,7 @@ function NavbarMgm() {
 
               <BiSearch className="search-mgm"></BiSearch>
               <Link to="/mgm-ecommerce/cart" style={{ textDecoration: "none" }}>
-                <FiShoppingCart className="logos-mgm2"></FiShoppingCart>
+                <FiShoppingCart className="logos-mgm2" ></FiShoppingCart>
               </Link>
               <Link to="/mgm-ecommerce/user" style={{ textDecoration: "none" }}>
                 <BiUser className="logos-mgm"></BiUser>

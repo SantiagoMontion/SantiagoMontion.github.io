@@ -19,10 +19,10 @@ function MgMMain() {
           
         }}
       >
-        <div className="body-mgm">
+
         <HomeBody></HomeBody>
           
-        </div>
+      
       </div>
     </div>
   );
