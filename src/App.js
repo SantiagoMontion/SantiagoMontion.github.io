@@ -18,7 +18,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import MgMMain from "./components/DesingsContainer/MgMEcommerce/main.js";
+import MgMMain from "./components/DesingsContainer/MgMEcommerce/index.js";
 import ProductsDisplay from "./components/DesingsContainer/MgMEcommerce/ProductDisplay";
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/web-designs" element={<DesignsContainer />} />
-          <Route path="/mgm-ecommerce" element={<MgMMain />} />
+          <Route exact path="/mgm-ecommerce" element={<MgMMain />} />
           <Route
             path="/mgm-ecommerce/product/:id"
             element={<ProductsDisplay></ProductsDisplay>}

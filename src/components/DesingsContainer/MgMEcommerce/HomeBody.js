@@ -58,17 +58,17 @@ function HomeBody() {
         <div className="images-holder-mgm">
           <Row className="mt-5 m-0 p-0 w-10 mb-5 pb-5">
             <Col className="mt-2">
-              <Link to="mgm-ecommerce/mousepads/japanese">
+              <Link to="/mgm-ecommerce/">
                 <img className="mgm-category-img" src={japanese}></img>
               </Link>
             </Col>
             <Col className="mt-2">
-              <Link to="mgm-ecommerce/figures">
+              <Link to="/mgm-ecommerce/">
                 <img className="mgm-category-img" src={figures}></img>
               </Link>
             </Col>
             <Col className="mt-2">
-              <Link to="mgm-ecommerce/games">
+              <Link to="/mgm-ecommerce/">
                 <img className="mgm-category-img" src={games}></img>
               </Link>
             </Col>

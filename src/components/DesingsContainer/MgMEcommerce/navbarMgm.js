@@ -110,10 +110,10 @@ function NavbarMgm() {
               />
 
               <BiSearch className="search-mgm"></BiSearch>
-              <Link to="/mgm-ecommerce/cart" style={{ textDecoration: "none" }}>
+              <Link to="/mgm-ecommerce/" style={{ textDecoration: "none" }}>
                 <FiShoppingCart className="logos-mgm2" ></FiShoppingCart>
               </Link>
-              <Link to="/mgm-ecommerce/user" style={{ textDecoration: "none" }}>
+              <Link to="/mgm-ecommerce/" style={{ textDecoration: "none" }}>
                 <BiUser className="logos-mgm"></BiUser>
               </Link>
             </Form>
