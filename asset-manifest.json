@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f87f4672.css",
+    "main.js": "/static/js/main.2705c5e2.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/SantiagoMontionResume.pdf": "/static/media/SantiagoMontionResume.fd967d05240d517f20ee.pdf",
+    "static/media/home-main.png": "/static/media/home-main.371cdd9e1d552747f297.png",
+    "static/media/henryfood.png": "/static/media/henryfood.a2015d7c2475d8017657.png",
+    "static/media/games.png": "/static/media/games.bfe2df4a783fb0139936.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.318667d9aeabb24426e5.png",
+    "static/media/logo.png": "/static/media/logo.9ff39b5186d0a9c98f4f.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.2db04c9d6afa92684bed.jpg",
+    "static/media/figures.png": "/static/media/figures.cf7a5c5d0928f80a7bad.png",
+    "static/media/pgescuelas.png": "/static/media/pgescuelas.e4a9209bcc342553134b.png",
+    "static/media/about.png": "/static/media/about.c7fb8bc48563db432382.png",
+    "static/media/japanese.png": "/static/media/japanese.fda85d590277e0b6c676.png",
+    "static/media/background_mgm.png": "/static/media/background_mgm.768a97688219fe3d3159.png",
+    "static/media/avatar.svg": "/static/media/avatar.ac796299251ba90359a95baacf738327.svg",
+    "static/media/pre.svg": "/static/media/pre.ccc176cc9459543a51ad.svg",
+    "index.html": "/index.html",
+    "main.f87f4672.css.map": "/static/css/main.f87f4672.css.map",
+    "main.2705c5e2.js.map": "/static/js/main.2705c5e2.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f87f4672.css",
+    "static/js/main.2705c5e2.js"
+  ]
+}
