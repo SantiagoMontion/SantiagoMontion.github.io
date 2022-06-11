@@ -18,8 +18,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import MgMMain from "./components/DesingsContainer/MgMEcommerce/index.js";
-import ProductsDisplay from "./components/DesingsContainer/MgMEcommerce/ProductDisplay";
+import MgMMain from "./components/DesingsContainer/MgMMain";
+import ProductsDisplay from "./components/DesingsContainer/ProductDisplay";
 
 function App() {
   const [load, upadateLoad] = useState(true);
