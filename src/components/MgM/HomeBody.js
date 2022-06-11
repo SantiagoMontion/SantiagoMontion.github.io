@@ -7,7 +7,7 @@ import games from "./Styles/img/games.png";
 import { Link } from "react-router-dom";
 import Products from "./Products";
 import ImageandText from "./ImageandText";
-import Footer from "./Footer";
+import Footer from "../MgM/Footer";
 
 function HomeBody() {
   var products = [
