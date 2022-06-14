@@ -18,7 +18,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import MgMMain from "./components/MgM";
+import MgMMain from "./components/MgM/index";
 import ProductsDisplay from "./components/MgM/ProductDisplay";
 
 function App() {

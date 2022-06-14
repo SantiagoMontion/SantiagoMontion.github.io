@@ -9,9 +9,9 @@ import ProjectCard from "../Projects/ProjectCards.js";
 
 function DesignsContainer() {
   return (
-    <div fluid  className="project-section">
+    <div fluid className="project-section">
       <Particle />
-      <Container >
+      <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Website Designs </strong>
         </h1>
@@ -19,14 +19,16 @@ function DesignsContainer() {
           Here are a few projects I've designing recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ecommerce}
-              title="MgM-ecommerce"
-              description="E-commerce of gaming stuf, such as games, mousepads, keyboards etc."
-              link="/mgm-ecommerce"
-            />
-          </Col>
+          <Link to="/mgm-ecommerce" style={{ textDecoration: "none" }}>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={ecommerce}
+                title="MgM-ecommerce"
+                description="E-commerce of gaming stuf, such as games, mousepads, keyboards etc."
+                link="/mgm-ecommerce"
+              />
+            </Col>
+          </Link>
         </Row>
       </Container>
     </div>
