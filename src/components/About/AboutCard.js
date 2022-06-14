@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 function AboutCard() {
   return (
@@ -10,12 +11,13 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Santiago Montion </span>
             from <span className="purple"> San Juan, Argentina.</span>
-            <br />I am a junior full stack developer passionate in web design and UI desing.
+            <br />I am a junior full stack developer passionate in web design
+            and UI desing.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
+          <ul className="mb-4">
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
@@ -30,7 +32,22 @@ function AboutCard() {
             </li>
           </ul>
 
-          
+          <p style={{ textAlign: "justify", marginTop: "45px" }}>
+            Also I manage my own <span className="purple">E-commerce </span>
+            that is dedicated to the sale of mousepads gamers.
+            
+            <a
+              href="https://mgm.empretienda.com.ar/"
+              target="_blank"
+              style={{
+                textDecoration: "none",
+                marginTop: "10px",
+                textAlign: "center",
+              }}
+            >
+              <h4 className="purple"> Website Link!</h4>
+            </a>
+          </p>
         </blockquote>
       </Card.Body>
     </Card>

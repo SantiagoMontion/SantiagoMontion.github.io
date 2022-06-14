@@ -22,7 +22,7 @@ function NavbarMgm() {
     <section>
       <Navbar bg="black" fixed="top" expand="md">
         <Container className="justify-content-center">
-          <Navbar.Brand className="profile-header" href="/mgm-ecommerce">
+          <Navbar.Brand className="profile-header" href="/back">
             <div className="mgm_logo_container">
               <img src={logo_mgm}></img>
             </div>
@@ -39,68 +39,66 @@ function NavbarMgm() {
           </Navbar.Toggle>
 
           <Navbar.Collapse id="responsive-navbar-nav">
-            
-              <Nav
-                className="me-auto my-2 my-lg-0"
-                style={{ maxHeight: "100%" }}
-                navbarScroll
-              >
+            <Nav
+              className="me-auto my-2 my-lg-0"
+              style={{ maxHeight: "100%" }}
+              navbarScroll
+            >
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/mgm-ecommerce/"
+                  onClick={() => updateExpanded(false)}
+                >
+                  Home
+                </Nav.Link>
+              </Nav.Item>
 
-                <Nav.Item>
-                  <Nav.Link
-                    as={Link}
-                    to="/mgm-ecommerce"
-                    onClick={() => updateExpanded(false)}
-                  >
-                    Home
-                  </Nav.Link>
-                </Nav.Item>
+              <NavDropdown title="Products" id="navbarScrollingDropdown">
+                <NavDropdown.ItemText>
+                  <h5>Mousepads</h5>
+                </NavDropdown.ItemText>
 
-                <NavDropdown title="Products" id="navbarScrollingDropdown">
-                  <NavDropdown.ItemText>
-                    <h5>Mousepads</h5>
-                  </NavDropdown.ItemText>
+                <NavDropdown.Item href="/mgm-ecommerce/">
+                  Japanese
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/mgm-ecommerce/">
+                  Minimalist
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
 
-                  <NavDropdown.Item href="/mgm-ecommerce/mousepads/japanese">
-                    Japanese
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/mgm-ecommerce/mousepads/minimalist">
-                    Minimalist
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
+                <NavDropdown.ItemText>
+                  <h5>Games</h5>
+                </NavDropdown.ItemText>
 
-                  <NavDropdown.ItemText>
-                    <h5>Games</h5>
-                  </NavDropdown.ItemText>
+                <NavDropdown.Item href="/mgm-ecommerce/">
+                  Action
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/mgm-ecommerce/">
+                  Adventure
+                </NavDropdown.Item>
+              </NavDropdown>
 
-                  <NavDropdown.Item href="/mgm-ecommerce/games/action">
-                    Action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/mgm-ecommerce/games/adventure">
-                    Adventure
-                  </NavDropdown.Item>
-                </NavDropdown>
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/mgm-ecommerce/"
+                  onClick={() => updateExpanded(false)}
+                >
+                  How to buy
+                </Nav.Link>
+              </Nav.Item>
 
-                <Nav.Item>
-                  <Nav.Link
-                    as={Link}
-                    to="/mgm-ecommerce/how-to-buy"
-                    onClick={() => updateExpanded(false)}
-                  >
-                    How to buy
-                  </Nav.Link>
-                </Nav.Item>
-
-                <Nav.Item>
-                  <Nav.Link
-                    as={Link}
-                    to="/mgm-ecommerce/contact"
-                    onClick={() => updateExpanded(false)}
-                  >
-                    Contact
-                  </Nav.Link>
-                </Nav.Item>
-              </Nav>
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/mgm-ecommerce/"
+                  onClick={() => updateExpanded(false)}
+                >
+                  Contact
+                </Nav.Link>
+              </Nav.Item>
+            </Nav>
             <Form className="d-flex">
               <FormControl
                 type="search"
@@ -111,7 +109,7 @@ function NavbarMgm() {
 
               <BiSearch className="search-mgm"></BiSearch>
               <Link to="/mgm-ecommerce/" style={{ textDecoration: "none" }}>
-                <FiShoppingCart className="logos-mgm2" ></FiShoppingCart>
+                <FiShoppingCart className="logos-mgm2"></FiShoppingCart>
               </Link>
               <Link to="/mgm-ecommerce/" style={{ textDecoration: "none" }}>
                 <BiUser className="logos-mgm"></BiUser>

@@ -26,7 +26,7 @@ function Projects() {
               title="Henry Food"
               description="Solo Proyect Website using React, Redux , NodeJs, css, HTML 5 and among others.
               The App use an API to get information about recipes and allows you to filter, search, create and navigate between them."
-              link="https://github.com/SantiagoMontion/PI-Food-main"
+              link="https://github.com/SantiagoMontion/PI-Food-main-main"
             />
           </Col>
 
